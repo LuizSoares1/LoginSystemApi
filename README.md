@@ -31,4 +31,6 @@ Este repositório contém o backend de uma API RESTful desenvolvida em .NET 8 pa
 <li>Execute: dotnet run --environment Development</li>
 <li>Acesse a API em http://localhost:5246/ para explorar os endpoints no Swagger UI.</li>
 </ul>
+<br>
+<br>
 O arquivo swagger.json está incluído na raiz do repositório para documentação detalhada da API.
