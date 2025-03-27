@@ -37,7 +37,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", builder =>
     {
-        builder.WithOrigins("http://localhost:5173", "https://62be-2804-14d-a281-85af-2973-5de4-b54-1f25.ngrok-free.app")
+        builder.WithOrigins("http://localhost:5173", "https://1cc8-2804-14d-a281-85af-756b-4a8c-8d13-1368.ngrok-free.app", "http://192.168.0.241:5173")
                .AllowAnyHeader()
                .AllowAnyMethod();
     });
